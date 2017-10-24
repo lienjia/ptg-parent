@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ptg-manager-web:war">
+    <output-path>$PROJECT_DIR$/../ptg-manager/ptg-manager-web/target</output-path>
+    <root id="archive" name="ptg-manager-web.war">
+      <element id="artifact" artifact-name="ptg-manager-web:war exploded" />
+    </root>
+  </artifact>
+</component>

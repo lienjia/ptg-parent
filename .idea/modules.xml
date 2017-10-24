@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ptg-common/ptg-common.iml" filepath="$PROJECT_DIR$/ptg-common/ptg-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ptg-manager/ptg-manager.iml" filepath="$PROJECT_DIR$/ptg-manager/ptg-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ptg-manager/ptg-manager-dao/ptg-manager-dao.iml" filepath="$PROJECT_DIR$/ptg-manager/ptg-manager-dao/ptg-manager-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ptg-manager/ptg-manager-interface/ptg-manager-interface.iml" filepath="$PROJECT_DIR$/ptg-manager/ptg-manager-interface/ptg-manager-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ptg-manager/ptg-manager-pojo/ptg-manager-pojo.iml" filepath="$PROJECT_DIR$/ptg-manager/ptg-manager-pojo/ptg-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ptg-manager/ptg-manager-service/ptg-manager-service.iml" filepath="$PROJECT_DIR$/ptg-manager/ptg-manager-service/ptg-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ptg-manager/ptg-manager-web/ptg-manager-web.iml" filepath="$PROJECT_DIR$/ptg-manager/ptg-manager-web/ptg-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ptg-parent/ptg-parent.iml" filepath="$PROJECT_DIR$/ptg-parent/ptg-parent.iml" />
+    </modules>
+  </component>
+</project>
