@@ -47,7 +47,7 @@
     <mvc:resources mapping="/skin/**" location="/skin/"/>
     <mvc:resources mapping="/images/**" location="/images/"/>
     <mvc:resources mapping="/components/**" location="/components/"/>
-    <mvc:resources mapping="/make/**" location="/make/"/>
+    <mvc:resources mapping="/font/**" location="/font/"/>
     <mvc:resources mapping="/ufiles/**" location="/ufiles/"/>
     <mvc:resources mapping="/home/**" location="/home/"/>
     <mvc:resources mapping="/validator/**" location="/validator/"/>
