@@ -2,24 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cae9856f-719c-4e87-8ecd-7cb671dfb1e4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ptg_finance_ptg_manager_pojo_1_0_SNAPSHOT.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/lienjiaa.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ptg-common/pom.xml" afterPath="$PROJECT_DIR$/../ptg-common/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/font/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/font/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/font/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/images/arrow_medium_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/images/arrow_medium_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/images/bg2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/images/timg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-common/src/main/java/com/ptg/payment/common/dto/Order.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-common/src/main/java/com/ptg/payment/common/dto/Page.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-common/src/main/java/com/ptg/payment/common/dto/Result.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/src/main/java/com/ptg/payment/dao/RpAccountCheckBatchCustomMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/src/main/java/com/ptg/payment/dao/RpAccountCheckBatchCustomMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/src/main/java/com/ptg/payment/dao/RpAccountCustomMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/src/main/java/com/ptg/payment/dao/RpAccountCustomMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/src/main/java/com/ptg/payment/dao/RpAccountHistoryCustomMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/src/main/java/com/ptg/payment/dao/RpAccountHistoryCustomMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/src/main/java/com/ptg/payment/dao/RpSettRecordCustomMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/src/main/java/com/ptg/payment/dao/RpSettRecordCustomMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-interface/src/main/java/com/ptg/payment/service/AccountHistoryService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-interface/src/main/java/com/ptg/payment/service/AccountService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-interface/src/main/java/com/ptg/payment/service/CheckBatchService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-interface/src/main/java/com/ptg/payment/service/SettRecordService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-pojo/src/main/java/com/ptg/payment/pojo/vo/AccountQuery.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-pojo/src/main/java/com/ptg/payment/pojo/vo/BillDateQuery.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-pojo/src/main/java/com/ptg/payment/pojo/vo/RpAccountCustom.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-pojo/src/main/java/com/ptg/payment/pojo/vo/RpAccountHistoryCustom.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-pojo/src/main/java/com/ptg/payment/pojo/vo/SettRecordQuery.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-service/src/main/java/com/ptg/payment/service/impl/AccountHistoryServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-service/src/main/java/com/ptg/payment/service/impl/AccountServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-service/src/main/java/com/ptg/payment/service/impl/CheckBatchServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-service/src/main/java/com/ptg/payment/service/impl/SettRecordServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/java/com/ptg/payment/web/AccountAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/java/com/ptg/payment/web/AccountHistoryAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/java/com/ptg/payment/web/CheckBatchAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/java/com/ptg/payment/web/IndexAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/java/com/ptg/payment/web/SettRecordAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/account-history.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/account-info.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/check-batch.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/check-mistake.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/clear-record.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/showInfo.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/css/common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/font/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/js/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/js/modernizr.custom.63321.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/js/ueditor/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/js/ueditor/ueditor.all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/js/ueditor/ueditor.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/js/ueditor/ueditor.parse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_ptg_finance_ptg_manager_pojo_1_0_SNAPSHOT.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ptg-manager/pom.xml" afterPath="$PROJECT_DIR$/../ptg-manager/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/pom.xml" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/ptg-manager-dao.iml" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/ptg-manager-dao.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ptg-manager/ptg-manager-interface/pom.xml" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-interface/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ptg-manager/ptg-manager-interface/ptg-manager-interface.iml" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-interface/ptg-manager-interface.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ptg-manager/ptg-manager-pojo/pom.xml" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-pojo/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ptg-manager/ptg-manager-service/pom.xml" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-service/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ptg-manager/ptg-manager-service/ptg-manager-service.iml" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-service/ptg-manager-service.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/pom.xml" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/ptg-manager-web.iml" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/ptg-manager-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/resources/db.properties" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/resources/db.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/resources/spring/spring-mvc.xml" afterPath="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/resources/spring/spring-mvc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../ptg-common/target/" />
     <ignored path="$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/target/" />
@@ -38,144 +84,111 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ptg-parent.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ptg-parent.iml">
+      <file leaf-file-name="AccountAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/java/com/ptg/payment/web/AccountAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="189">
+              <caret line="27" column="51" lean-forward="false" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Maven__com_ptg_finance_ptg_manager_pojo_1_0_SNAPSHOT.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__com_ptg_finance_ptg_manager_pojo_1_0_SNAPSHOT.xml">
+      <file leaf-file-name="AccountHistoryAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/java/com/ptg/payment/web/AccountHistoryAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="9" column="57" lean-forward="false" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Maven__commons_fileupload_commons_fileupload_1_3_1.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ptg_manager_web_war.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/artifacts/ptg_manager_web_war.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ptg_manager_web_war_exploded.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/artifacts/ptg_manager_web_war_exploded.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ptg-manager-web.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/ptg-manager-web.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="19" column="56" lean-forward="false" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="6" column="67" lean-forward="false" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+            <state relative-caret-position="195">
+              <caret line="27" column="11" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="98" />
               <folding>
-                <marker date="1508857563603" expanded="true" signature="60117:60159" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="60117:60177" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="60117:60190" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="60117:60205" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="60240:62891" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="60253:62876" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="60307:60698" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="60326:60683" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="60446:60663" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="60486:60629" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="60507:60607" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="60748:61057" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="60767:61042" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="60844:61022" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="60884:60988" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="60905:60966" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="61108:61373" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="61127:61358" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="61160:61338" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="61200:61304" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="61221:61282" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="61416:61722" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="61435:61707" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="61509:61687" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="61549:61653" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="61570:61631" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="61773:62125" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="61792:62110" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="61873:62090" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="61913:62056" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="61934:62034" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="62160:62473" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="62179:62458" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="62253:62438" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="62293:62404" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="62314:62382" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="62525:62862" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="62544:62847" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="62649:62827" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="62689:62793" ph="..." />
-                <marker date="1508857563603" expanded="true" signature="62710:62771" ph="..." />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="encodings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <file leaf-file-name="AccountHistoryService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-interface/src/main/java/com/ptg/payment/service/AccountHistoryService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="15" column="92" lean-forward="false" selection-start-line="15" selection-start-column="92" selection-end-line="15" selection-end-column="92" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountHistoryServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-service/src/main/java/com/ptg/payment/service/impl/AccountHistoryServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="36" column="31" lean-forward="false" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="24" column="69" lean-forward="false" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="compiler.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <file leaf-file-name="AccountServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-service/src/main/java/com/ptg/payment/service/impl/AccountServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="222">
+              <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="37" selection-end-column="18" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RpAccountHistoryCustomMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/src/main/java/com/ptg/payment/dao/RpAccountHistoryCustomMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="account-info.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/account-info.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="account-history.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/account-history.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="42" column="27" lean-forward="false" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RpAccountHistoryCustomMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/src/main/java/com/ptg/payment/dao/RpAccountHistoryCustomMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <folding>
+                <marker date="1509113356128" expanded="true" signature="738:841" ph="select count... rp_account_history" />
+                <marker date="1509113356128" expanded="true" signature="952:1161" ph="select from rp_account_history" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -186,8 +199,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>logi</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -200,19 +220,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/resources/db.properties" />
-        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/resources/spring/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/../ptg-manager/pom.xml" />
-        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/pom.xml" />
-        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-service/pom.xml" />
         <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-pojo/pom.xml" />
-        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-interface/pom.xml" />
-        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/pom.xml" />
         <option value="$PROJECT_DIR$/../ptg-common/pom.xml" />
         <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_ptg_logistics_ptg_manager_pojo_1_0_SNAPSHOT.xml" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/java/com/ptg/payment/web/IndexAction.java" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/resources/spring/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/../ptg-common/src/main/java/com/ptg/payment/common/Page.java" />
+        <option value="$PROJECT_DIR$/../ptg-common/src/main/java/com/ptg/payment/common/dto/Order.java" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-pojo/src/main/java/com/ptg/payment/pojo/vo/SettRecordQuery.java" />
+        <option value="$PROJECT_DIR$/../ptg-common/src/main/java/com/ptg/payment/common/dto/Result.java" />
+        <option value="$PROJECT_DIR$/../ptg-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/src/main/java/com/ptg/payment/dao/RpSettRecordCustomMapper.java" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/src/main/java/com/ptg/payment/dao/RpSettRecordCustomMapper.xml" />
+        <option value="$PROJECT_DIR$/../ptg-common/src/main/java/com/ptg/payment/common/dto/Page.java" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-pojo/src/main/java/com/ptg/payment/pojo/vo/BillDate.java" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-interface/src/main/java/com/ptg/payment/service/CheckBatchService.java" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/src/main/java/com/ptg/payment/dao/RpAccountCheckBatchCustomMapper.java" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/check-mistake.jsp" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-service/src/main/java/com/ptg/payment/service/impl/CheckBatchServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/src/main/java/com/ptg/payment/dao/RpAccountCheckBatchCustomMapper.xml" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/check-batch.jsp" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/java/com/ptg/payment/web/CheckBatchAction.java" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-pojo/src/main/java/com/ptg/payment/pojo/vo/BillDateQuery.java" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-pojo/src/main/java/com/ptg/payment/pojo/vo/AccountQuery.java" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-interface/src/main/java/com/ptg/payment/service/AccountService.java" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/src/main/java/com/ptg/payment/dao/RpAccountCustomMapper.java" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-service/src/main/java/com/ptg/payment/service/impl/AccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/java/com/ptg/payment/web/AccountAction.java" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-pojo/src/main/java/com/ptg/payment/pojo/vo/RpAccountCustom.java" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/account-info.jsp" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/src/main/java/com/ptg/payment/dao/RpAccountCustomMapper.xml" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-interface/src/main/java/com/ptg/payment/service/SettRecordService.java" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-service/src/main/java/com/ptg/payment/service/impl/SettRecordServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/java/com/ptg/payment/web/SettRecordAction.java" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/showInfo.jsp" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-pojo/src/main/java/com/ptg/payment/pojo/po/RpSettRecord.java" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/clear-record.jsp" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-pojo/src/main/java/com/ptg/payment/pojo/vo/RpAccountHistoryCustom.java" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/java/com/ptg/payment/web/AccountHistory.java" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-interface/src/main/java/com/ptg/payment/service/AccountHistoryService.java" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/java/com/ptg/payment/web/AccountHistoryAction.java" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/src/main/java/com/ptg/payment/dao/RpAccountHistoryCustomMapper.xml" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/src/main/java/com/ptg/payment/dao/RpAccountHistoryCustomMapper.java" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-service/src/main/java/com/ptg/payment/service/impl/AccountHistoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/account-history.jsp" />
       </list>
     </option>
   </component>
@@ -248,7 +306,30 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ptg-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ptg-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ptg-manager-dao" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ptg-manager-dao" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="ptg-manager-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ptg-manager-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -275,8 +356,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="144" />
-    <option name="y" value="74" />
+    <option name="x" value="-10" />
     <option name="width" value="1346" />
     <option name="height" value="788" />
   </component>
@@ -371,7 +451,9 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -387,8 +469,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -416,6 +499,14 @@
             </path>
             <path>
               <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ptg-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -426,7 +517,67 @@
             <path>
               <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
               <item name="ptg-manager-interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -436,7 +587,67 @@
             <path>
               <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
               <item name="ptg-manager-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -445,31 +656,98 @@
             </path>
             <path>
               <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ptg-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ptg-parent" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ptg-parent" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ptg-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ptg-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="ptg-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="settings.editor.splitter.proportion" value="0.22607385" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -480,12 +758,18 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lienjiaa\Desktop\finance\ptg-manager\ptg-manager-web\src\main\webapp\WEB-INF\jsp" />
+      <recent name="C:\Users\lienjiaa\Desktop\finance\ptg-manager\ptg-manager-web\src\main\webapp" />
+      <recent name="C:\Users\lienjiaa\Desktop\finance\ptg-manager\ptg-manager-web\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ptg.payment.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lienjiaa\Desktop\finance\ptg-manager\ptg-manager-dao\src\main\java\com\ptg\payment\dao" />
+      <recent name="C:\Users\lienjiaa\Desktop\finance\ptg-manager\ptg-manager-web\src\main\webapp\WEB-INF\jsp" />
       <recent name="C:\Users\lienjiaa\Desktop\finance\ptg-manager\ptg-manager-web\src\main\webapp" />
       <recent name="C:\Users\lienjiaa\Desktop\finance\ptg-manager\ptg-manager-web\src\main\webapp\js" />
       <recent name="C:\Users\lienjiaa\Desktop\finance\ptg-manager\ptg-manager-web\src\main\webapp\images" />
-      <recent name="C:\Users\lienjiaa\Desktop\finance\ptg-manager\ptg-manager-web\src\main\webapp\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -597,12 +881,30 @@
       <updated>1508843373295</updated>
       <workItem from="1508843374871" duration="600000" />
       <workItem from="1508844043978" duration="1645000" />
-      <workItem from="1508853957842" duration="3637000" />
+      <workItem from="1508853957842" duration="4352000" />
+      <workItem from="1508900056760" duration="3763000" />
+      <workItem from="1508920991212" duration="8057000" />
+      <workItem from="1508931873236" duration="4863000" />
+      <workItem from="1508937456986" duration="7018000" />
+      <workItem from="1508987462615" duration="10406000" />
+      <workItem from="1509017063562" duration="97000" />
+      <workItem from="1509017197606" duration="8323000" />
+      <workItem from="1509027491477" duration="3252000" />
+      <workItem from="1509072691124" duration="3282000" />
+      <workItem from="1509076029840" duration="12801000" />
     </task>
+    <task id="LOCAL-00001" summary="平头哥支付初始化配置">
+      <created>1508857634032</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1508857634032</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5882000" />
+    <option name="totallyTimeSpent" value="68459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -614,16 +916,16 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35551664" sideWeight="0.50911856" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07294833" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35551664" sideWeight="0.49088147" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16112085" sideWeight="0.51215804" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17705168" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21015762" sideWeight="0.48784193" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924694" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924694" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42325228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30927053" sideWeight="0.49137932" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2819149" sideWeight="0.5086207" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -647,195 +949,138 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+    <MESSAGE value="平头哥支付初始化配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="平头哥支付初始化配置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/../ptg-common/src/main/java/com/ptg/payment/common/Page.java" />
+    <entry file="file://$PROJECT_DIR$/../ptg-common/src/main/java/com/ptg/payment/common/dto/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1749">
-          <caret line="53" column="72" lean-forward="false" selection-start-line="53" selection-start-column="72" selection-end-line="53" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/resources/spring/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/resources/spring/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/resources/spring/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-406">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2475">
-          <caret line="75" column="42" lean-forward="false" selection-start-line="75" selection-start-column="42" selection-end-line="75" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/js/modernizr.custom.63321.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="49" column="41" lean-forward="false" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="66" column="15" lean-forward="false" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
-          <folding>
-            <element signature="e#1489#1496#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="396">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ptg-manager/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        <state relative-caret-position="759">
+          <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        <state relative-caret-position="165">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        <state relative-caret-position="627">
+          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-pojo/src/main/java/com/ptg/payment/pojo/po/RpAccountCheckBatchExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-pojo/src/main/java/com/ptg/payment/pojo/po/RpAccountCheckBatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="56" column="31" lean-forward="false" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/src/main/java/com/ptg/payment/dao/RpSettRecordCustomMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding>
+            <marker date="1508935963127" expanded="true" signature="739:834" ph="select count... rp_sett_record" />
+            <marker date="1508935963127" expanded="true" signature="935:1080" ph="select from rp_sett_record" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/src/main/java/com/ptg/payment/dao/RpSettRecordCustomMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-interface/src/main/java/com/ptg/payment/service/CheckBatchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-pojo/src/main/java/com/ptg/payment/pojo/vo/SettRecordQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="e#204#205#0" expanded="false" />
+            <element signature="e#235#236#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/check-batch.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/src/main/java/com/ptg/payment/dao/RpAccountMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-pojo/src/main/java/com/ptg/payment/pojo/vo/BillDateQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="e#194#195#0" expanded="false" />
+            <element signature="e#221#222#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -847,172 +1092,322 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-interface/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        <state relative-caret-position="-2722">
+          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../ptg-common/src/main/java/com/ptg/payment/common/dto/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="e#453#454#0" expanded="false" />
+            <element signature="e#489#490#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-common/src/main/java/com/ptg/payment/common/dto/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="e#241#242#0" expanded="false" />
+            <element signature="e#269#270#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-service/src/main/java/com/ptg/payment/service/impl/CheckBatchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1023">
+          <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/src/main/java/com/ptg/payment/dao/RpAccountCheckBatchCustomMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/src/main/java/com/ptg/payment/dao/RpAccountCustomMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding>
+            <marker date="1509025444104" expanded="true" signature="747:842" ph="select count... rp_account_check_batch" />
+            <marker date="1509025444104" expanded="true" signature="946:1147" ph="select from rp_account" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/src/main/java/com/ptg/payment/dao/RpAccountCheckBatchCustomMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <marker date="1509008976914" expanded="true" signature="870:973" ph="select count... rp_account_check_batch" />
+            <marker date="1509008976914" expanded="true" signature="1081:1234" ph="select from rp_account_check_batch" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-pojo/src/main/java/com/ptg/payment/pojo/po/RpAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/src/main/java/com/ptg/payment/dao/RpAccountCustomMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-interface/src/main/java/com/ptg/payment/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-service/src/main/java/com/ptg/payment/service/impl/SettRecordServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding>
+            <element signature="e#1451#1452#0" expanded="false" />
+            <element signature="e#1503#1504#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/java/com/ptg/payment/web/IndexAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="e#444#445#0" expanded="false" />
+            <element signature="e#474#475#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-interface/src/main/java/com/ptg/payment/service/SettRecordService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="27" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/java/com/ptg/payment/web/SettRecordAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="34" column="44" lean-forward="false" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ptg-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="-693">
           <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/showInfo.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ptg-parent.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__com_ptg_finance_ptg_manager_pojo_1_0_SNAPSHOT.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="57" lean-forward="false" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="6" column="67" lean-forward="false" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+        <state relative-caret-position="-644">
+          <caret line="59" column="69" lean-forward="false" selection-start-line="59" selection-start-column="69" selection-end-line="59" selection-end-column="69" />
           <folding>
-            <marker date="1508857563603" expanded="true" signature="60117:60159" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="60117:60177" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="60117:60190" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="60117:60205" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="60240:62891" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="60253:62876" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="60307:60698" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="60326:60683" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="60446:60663" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="60486:60629" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="60507:60607" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="60748:61057" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="60767:61042" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="60844:61022" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="60884:60988" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="60905:60966" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="61108:61373" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="61127:61358" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="61160:61338" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="61200:61304" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="61221:61282" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="61416:61722" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="61435:61707" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="61509:61687" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="61549:61653" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="61570:61631" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="61773:62125" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="61792:62110" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="61873:62090" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="61913:62056" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="61934:62034" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="62160:62473" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="62179:62458" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="62253:62438" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="62293:62404" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="62314:62382" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="62525:62862" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="62544:62847" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="62649:62827" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="62689:62793" ph="..." />
-            <marker date="1508857563603" expanded="true" signature="62710:62771" ph="..." />
+            <element signature="n#style#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/ptg_manager_web_war.xml">
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-pojo/src/main/java/com/ptg/payment/pojo/po/RpSettRecord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="66">
+          <caret line="48" column="34" lean-forward="true" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+          <folding>
+            <element signature="e#4375#4376#0" expanded="true" />
+            <element signature="e#4403#4404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/java/com/ptg/payment/web/CheckBatchAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="28" column="41" lean-forward="false" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/ptg_manager_web_war_exploded.xml">
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/check-mistake.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="66">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/ptg-manager-web.iml">
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/clear-record.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="19" column="56" lean-forward="false" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="56" />
+        <state relative-caret-position="1485">
+          <caret line="56" column="40" lean-forward="false" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-pojo/src/main/java/com/ptg/payment/pojo/vo/RpAccountCustom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="5" />
+        <state relative-caret-position="552">
+          <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <element signature="e#558#559#0" expanded="false" />
+            <element signature="e#630#631#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-pojo/src/main/java/com/ptg/payment/pojo/vo/AccountQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#235#236#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-pojo/src/main/java/com/ptg/payment/pojo/vo/RpAccountHistoryCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/java/com/ptg/payment/web/AccountAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="27" column="51" lean-forward="false" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-interface/src/main/java/com/ptg/payment/service/AccountHistoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="92" lean-forward="false" selection-start-line="15" selection-start-column="92" selection-end-line="15" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/java/com/ptg/payment/web/AccountHistoryAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="27" column="11" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/src/main/java/com/ptg/payment/dao/RpAccountHistoryCustomMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-service/src/main/java/com/ptg/payment/service/impl/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="37" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-service/src/main/java/com/ptg/payment/service/impl/AccountHistoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="36" column="31" lean-forward="false" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="24" column="69" lean-forward="false" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-dao/src/main/java/com/ptg/payment/dao/RpAccountHistoryCustomMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <marker date="1509113356128" expanded="true" signature="738:841" ph="select count... rp_account_history" />
+            <marker date="1509113356128" expanded="true" signature="952:1161" ph="select from rp_account_history" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/account-info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ptg-manager/ptg-manager-web/src/main/webapp/WEB-INF/jsp/account-history.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="42" column="27" lean-forward="false" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1071,7 +1466,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ptg-common</last-edited>
+          <last-edited>ptg-manager-interface</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

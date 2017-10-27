@@ -21,7 +21,7 @@
     </modules>
     <dependencies>
         <dependency>
-            <groupId>com.ptg.logistics</groupId>
+            <groupId>com.ptg.finance</groupId>
             <artifactId>ptg-common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
